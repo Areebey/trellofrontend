@@ -1,0 +1,19 @@
+.contentContainer2{
+    background-color: #e9fcff;
+}
+.contentCotainer2Section2 {
+    display: flex;
+}
+
+.contentContainer2Section2A {
+    margin-left: 3em;
+}
+
+.contentContainer2Section2BImgContainer {
+    margin-left: 3em;
+}
+
+.contentContainer2Section2BImg {
+    display: inline-block;
+    width: 35em;
+}
