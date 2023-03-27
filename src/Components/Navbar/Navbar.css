@@ -1,19 +1,25 @@
-
 nav{
-    align-items: ;
+    align-items: center;
     background-color: white;
     width: 100%;
+    height: 70px;
     position: sticky;
-    padding: 10px;
-    border: 1px solid red;
+    box-sizing: border-box;
     top: 0;
     left: 0;
+    display: flex;
 }
-
+img{
+    width:15%;
+    margin: 0;
+    padding: 0;
+    margin-right: 2rem;
+}
 ul{
     display: flex;
     justify-content: flex-start;
     list-style: none;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -33,3 +39,38 @@ button{
 button:hover{
     color: blue;
 }
+.login-btn{
+    width: 80px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: larger;
+    font-weight: 400;
+    color: black;
+}
+.login-btn:hover{
+    color: black;
+}
+.get-trello-btn{
+    width: 40%;
+    height: 70px;
+    cursor: pointer;
+    background-color: rgb(0, 101, 255);
+    color: white;
+    padding: 0%;
+    margin: 0;
+    border: 1px solid  rgb(3, 88, 216);
+    cursor: pointer;
+}
+.get-trello-btn:hover{
+    background-color: rgb(4, 4, 143);
+    color: white;
+}
+.content-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column(1,1);
+    padding: 15px;
+}
+
