@@ -1,0 +1,106 @@
+@media only screen and (min-width:0px) and (max-width: 575px) {}
+
+@media only screen and (min-width:576px) and (max-width: 767px) {}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {}
+
+@media only screen and (min-width:992px) {
+    .contentContainer1 {
+
+        background: url(//images.ctfassets.net/rz1oowkt5gyp/7lTGeXbBRNRLaVk2MdBjtJ/99c266e…/white-wave-bg.svg) center bottom -0.5px / 100% 14% no-repeat scroll padding-box border-box, linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
+        background-blend-mode: normal, normal;
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+
+    .contentContainerMainSection {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .contentContainer1Section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 38em;
+    }
+
+    .contentContainer1Section1A {
+        width: 28em;
+    }
+
+
+    .contentContainer1Section1APara {
+        font-weight: 500;
+        height: 60px;
+        font-size: 48px;
+        color: rgb(255, 255, 255);
+    }
+
+    .contentContainer1Section1B {
+
+        margin-top: 5em;
+        width: 27em;
+    }
+
+    .contentContainer1Section1BPara {
+        font-weight: 400;
+        height: 60px;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .contentContainer1Section1C {
+        margin-right: 9em;
+    }
+
+    .contentContainer1Section1CInput {
+        display: inline-block;
+        width: 20em;
+        border: 1px solid white;
+        padding: 1em 1em;
+        border-radius: 0.3em;
+        outline: none;
+    }
+
+    .contentContainer1Section1D {
+        margin-right: 18em;
+        margin-top: 1em;
+    }
+
+    .contentContainer1Section1DButton {
+        background-color: #0065ff;
+        border: 1px solid #0065ff;
+        width: 12em;
+        padding: 1.3em 1em;
+        border-radius: 0.6em;
+        color: white;
+        font-size: 0.8em;
+    }
+
+    .contentContainer1Section1E {
+        margin-right: 20em;
+        margin-top: 2em;
+        display: flex;
+    }
+
+    .contentContainer1Section1ELink {
+        color: white;
+    }
+
+    .contentContainer1Section1ESpan {
+        display: inline-block;
+        margin-left: 0.5em;
+    }
+
+    .contentContainer1Section2 {
+
+        width: 38em;
+        margin-top: 8em;
+    }
+
+    .contentContainer1Section2Img {
+        width: 28em;
+    }
+}

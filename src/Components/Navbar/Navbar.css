@@ -3,7 +3,7 @@ nav{
     align-items: ;
     background-color: white;
     width: 100%;
-    position: fixed;
+    position: sticky;
     padding: 10px;
     border: 1px solid red;
     top: 0;
