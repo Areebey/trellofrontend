@@ -1,12 +1,20 @@
-.contentContainer2{
+.contentContainer2 {
     background-color: #e9fcff;
-}
-.contentCotainer2Section2 {
     display: flex;
+    flex-direction: column;
+}
+
+.contentContainer2Section2 {
+    display: flex;
+    margin-top: 2em;
 }
 
 .contentContainer2Section2A {
     margin-left: 3em;
+}
+.contentContainer2Section2B{
+    margin-top: 1em;
+    width: 45em;
 }
 
 .contentContainer2Section2BImgContainer {
@@ -16,4 +24,65 @@
 .contentContainer2Section2BImg {
     display: inline-block;
     width: 35em;
+    user-select: none;
+}
+
+.contentContainer2Section2ACard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18em;
+    margin: 1em 1em;
+    padding: 0em 2em;
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+.selectedCardItem {
+    background-color: white;
+}
+
+.cardCover {
+    background-color: #00c7e5;
+    height: 10.4em;
+    position: absolute;
+    z-index: 0;
+    width: 0.5em;
+    left: 4em;
+    border: 1px solid white;
+    border-radius: 0.4em;
+}
+
+.contentContainer2Section1A {}
+
+.contentContainer2Section1PartA {
+    width: 16em;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.contentContainer2Section1PartAPara {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.contentContainer2Section1PartB {
+    width: 32em;
+    margin-top: -1em;
+    margin-left: 5em;
+}
+
+.contentContainer2Section1PartBPara {
+    font-size: 2.25em;
+    font-weight: 500;
+}
+
+.contentContainer2Section1PartC {
+    margin-left: 5em;
+    width: 30em;
+}
+
+.contentContainer2Section1PartCPara {
+    font-size: 1.25em;
+    font-weight: 400;
 }
