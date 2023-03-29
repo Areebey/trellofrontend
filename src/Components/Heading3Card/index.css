@@ -1,9 +1,20 @@
-.cardContainer3 {    display: flex;
+.cardContainer3 {
+    display: flex;
     background-color: white;
     width: 60em;
     margin: 4em auto;
     border: 1px solid white;
     border-radius: 0.3em;
+}
+
+.cardContainer3Reverse {
+    display: flex;
+    background-color: white;
+    width: 60em;
+    margin: 4em auto;
+    border: 1px solid white;
+    border-radius: 0.3em;
+    flex-direction: row-reverse;
 }
 
 .cardContainer3Section1 {
@@ -20,6 +31,11 @@
 
 .cardContainer3Section2 {
     margin-right: 2em;
+    margin-top: 2em;
+}
+
+.cardContainer3Section2Reverse {
+    margin-left: 2em;
     margin-top: 2em;
 }
 
