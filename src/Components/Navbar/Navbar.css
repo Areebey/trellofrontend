@@ -80,15 +80,31 @@ button:hover{
     border:1px solid red;
     padding: 10px;
 }
-
+.sub-container-1{
+    border: 1px solid purple;
+    padding: 0 10px;
+}
+.sub-container-1 >p{
+    font-size: larger;
+    font-weight: 400;
+    font-family: sans-serif;
+}
 .container-1{
     border: 1px solid blue;
-    width: 60%;
+    width: 70%;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: flex-start;
 }
+.views{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+
+
 .container-2{
  border: 1px solid green;
  margin-left: auto;

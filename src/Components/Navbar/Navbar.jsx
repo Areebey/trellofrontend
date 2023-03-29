@@ -12,15 +12,20 @@ const Navbar = () => {
               className="dropdown-toggle" >Features
             <div className='dropdown-menu' >
              <div className='content-container'>
-              <div className='container-1' >
-              <h3>Explore the features that help your team succeed</h3> 
+              <div className='sub-container-1' >
+                <p>Explore the features that help your team succeed</p>
+              {/* <h4>Explore the features that help your team succeed</h4>  */}
+
+                <div className='container-1'>
               <div className='views'>
-               <h2>Views</h2>
+               <h4>Views</h4>
+               <p>View your team's project from every angle</p>
               </div>
               <div><h2>Automation</h2></div>
               <div><h2>Power-Ups</h2></div>
               <div><h2>Templates</h2></div>
               <div><h2>Integration</h2></div>
+              </div>
               </div>
 
               <div className='container-2'>
