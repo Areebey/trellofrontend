@@ -11,6 +11,7 @@
         background-blend-mode: normal, normal;
         color: rgb(255, 255, 255);
         display: flex;
+        padding-top: 8em;
     }
 
     .contentContainerMainSection {
@@ -95,9 +96,8 @@
     }
 
     .contentContainer1Section2 {
-
         width: 38em;
-        margin-top: 8em;
+        margin-top: 5em;
     }
 
     .contentContainer1Section2Img {

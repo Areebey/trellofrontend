@@ -61,13 +61,6 @@ export default function Heading2() {
                     </Carousel>
                 </div>
             </div>
-
-            <div className="contentContainer2Section3">
-
-            </div>
-            <div className="contentContainer2Section4">
-
-            </div>
         </div>
     )
 }

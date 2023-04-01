@@ -1,0 +1,50 @@
+.heading4CardContainer {
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafbfc;
+    height: 23em;
+}
+
+.heading4CardContainerImg {
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.heading4CardContainerImgStyling {
+    width: 6em;
+}
+
+.heading4CardContainerPara1Container {
+    margin-left: 2em;
+    margin-top: 0.5em;
+}
+
+.heading4CardContainerPara1Content {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.heading4CardContainerPara2Container {
+    margin-left: 2em;
+    width: 14em;
+    height: 6em;
+}
+
+.heading4CardContainerPara2Content {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.heading4CardContainerBtnContainer {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.heading4CardContainerBtn {
+
+    border: 1px solid rgb(0, 82, 204);
+    background-color: #fafbfc;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+}

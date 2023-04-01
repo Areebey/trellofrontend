@@ -1,0 +1,38 @@
+.contentContainer4 {
+    margin-top: 2em;
+}
+
+.contentContainer4Section1 {
+    margin-left: 5em;
+}
+
+.contentContainer4Section1Para {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.contentContainer4Section2 {
+    margin-top: -1em;
+    margin-left: 5em;
+}
+
+.contentContainer4Section2Para {
+    font-weight: 500;
+    font-size: 2.25em;
+}
+
+.contentContainer4Section3 {
+    margin-top: 2em;
+    width: 29em;
+    margin-left: 5em;
+}
+
+.contentContainer4Section3Para {
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.contentContainer4Section4 {
+    display: flex;
+    justify-content: space-around;
+}

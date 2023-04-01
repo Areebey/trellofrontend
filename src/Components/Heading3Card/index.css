@@ -1,0 +1,79 @@
+.cardContainer3 {
+    display: flex;
+    background-color: white;
+    width: 60em;
+    margin: 4em auto;
+    border: 1px solid white;
+    border-radius: 0.3em;
+}
+
+.cardContainer3Reverse {
+    display: flex;
+    background-color: white;
+    width: 60em;
+    margin: 4em auto;
+    border: 1px solid white;
+    border-radius: 0.3em;
+    flex-direction: row-reverse;
+}
+
+.cardContainer3Section1 {
+    margin-top: 2em;
+}
+
+.cardContainer3Section1ImgContainer {
+    margin: 2em 2em;
+}
+
+.cardContainer3Section1Img {
+    width: 28em;
+}
+
+.cardContainer3Section2 {
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.cardContainer3Section2Reverse {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.cardContainer3Section2A {
+    display: flex;
+}
+
+.cardContainer3Section2AImgContainer {
+    width: 2em;
+}
+
+.cardContainer3Section2AImg {}
+
+.cardContainer3Section2AParaContainer {
+    margin-left: 1em;
+}
+
+.cardContainer3Section2AParaContent {
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.cardContainer3Section2B {}
+
+.cardContainer3Section2BPara {
+    color: black;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.cardContainer3Section2C {}
+
+.cardContainer3Section2CPara {
+    margin-top: 4em;
+}
+
+.cardContainer3Section2CLink {
+    color: rgb(0, 82, 204);
+    font-size: 1.25em;
+}
