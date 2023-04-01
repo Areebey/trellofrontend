@@ -1,3 +1,5 @@
+/* --------------------------------------------------------
+ */
 nav {
     align-items: center;
     background-color: white;
@@ -6,15 +8,15 @@ nav {
     position: fixed;
     box-sizing: border-box;
     top: 0;
-    display: flex;
-    z-index: 1;
+    left: 0;
+    display: flex; 
 }
 
 img {
     width: 15%;
     margin: 0;
     padding: 0;
-    margin-right: 2rem;
+    margin-right: 10px;
 }
 
 ul {
@@ -24,21 +26,19 @@ ul {
     align-items: center;
     margin: 0;
     padding: 0;
+    top: 100%;
+    width: 100%;
+    border: 1px solid red;
 }
 
-li {
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-li:hover {
-    text-decoration: underline;
+p,h4{
+    color: black;
 }
 
 button {
     border: none;
     font-size: large;
-    font-weight: 400;
+    font-weight: 500;
     font-family: sans-serif;
 }
 
@@ -66,7 +66,8 @@ button:hover {
     cursor: pointer;
     background-color: rgb(0, 101, 255);
     color: white;
-    padding: 0%;
+    padding: 1.75rem;
+    padding-right: 5px;
     margin: 0;
     border: 1px solid rgb(3, 88, 216);
     cursor: pointer;
@@ -77,10 +78,69 @@ button:hover {
     color: white;
 }
 
-.content-container {
+li{
+    margin-right: 2rem;
+}
+
+.dropdown-menu{
+    /* position: relative; */
     width: 100%;
-    height: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container{
+    width: 100%;
+    height: 70%; 
+    background-color: #fff;
+    margin: 20px 0 0 0;
+    position: absolute;
     display: flex;
-    flex-direction: column(1, 1);
-    padding: 15px;
+    flex-direction: column(1,1);
+    padding: 10px;
+    text-align:start;
+}
+ .sub-container-1{
+    background-color: #fff;
+}
+.sub-container-1 >h2{
+    color: rgb(14, 30, 56);
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.container-1{
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+    margin: 20px;
+} 
+.container-1sec2{
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 3rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-2{
+    background-color: #fff;
+    width:30%;
+    text-align: center;
+    /* margin: 20px; */
+}
+
+.trello-btn{
+    margin-top: 20px;
+    width: 200px;
+    border: 1px solid rgba(137, 7, 224, 0.5);
+    padding: 10px;
+    text-align: center;
+
+}
+.trello-btn:hover{
+    background-color: rgba(137, 7, 224, 0.158);
+    color: rgba(0, 0, 0, 0.836);
 }
