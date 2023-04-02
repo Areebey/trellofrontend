@@ -1,0 +1,20 @@
+.footerCardContainer {
+  margin-top: 1.5em;
+  margin-left: 3em;
+}
+.footerHeadingContainer {
+}
+.footerHeadingContent {
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+.footerParaContainer {
+  width: 12em;
+}
+.footerParaContent {
+  color: white;
+  font-weight: 400;
+  font-size: 0.75em;
+  margin-top: -0.5em;
+}

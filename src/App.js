@@ -6,6 +6,7 @@ import Heading3 from './Components/Heading3';
 import Heading4 from './Components/Heading4';
 import UserSection from './Components/UserSection';
 import Heading5 from './Components/Heading5';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Heading4 />
     <UserSection />
     <Heading5 />
+    <Footer />
     </div>
   );
 }
