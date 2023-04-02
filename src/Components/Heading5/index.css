@@ -1,0 +1,45 @@
+.heading5Container {
+  background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% /
+    auto repeat scroll padding-box border-box rgb(82, 67, 170);
+  background-blend-mode: normal, normal, normal;
+  color: rgb(255, 255, 255);
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+}
+.heading5Section1Container {
+}
+.heading5Section1ImgContainer {
+}
+.heading5Section1ImgContent {
+  width: 18em;
+}
+.heading5Section2Container {
+}
+.heading5Section2HeadingContainer {
+  margin-top: 6em;
+}
+.heading5Section2HeadingContent {
+  font-size: 2.25em;
+  font-weight: 500;
+  color: white;
+}
+.heading5Section2BtnContainer {
+  margin-left: 10em;
+}
+.heading5Section2BtnContent {
+  background-color: #0065ff;
+  border: 1px solid #0065ff;
+  width: 12em;
+  padding: 1.3em 1em;
+  border-radius: 0.6em;
+  color: white;
+  font-size: 0.8em;
+}
+.heading5Section3Container {
+}
+.heading5Section3ImgContainer {
+}
+.heading5Section3ImgContent {
+  width: 18em;
+}

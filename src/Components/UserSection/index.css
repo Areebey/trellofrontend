@@ -1,0 +1,15 @@
+.userSectionContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8em;
+}
+.userSectionHeadingContainer{}
+.userSectionHeadingContent{
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.userSectionImgContainer{}
+.userSectionImgContent{
+    width: 55em;
+}
