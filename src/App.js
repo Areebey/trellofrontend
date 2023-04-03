@@ -7,6 +7,9 @@ import Heading4 from './Components/Heading4';
 import MultipleItems from './Components/carousel1';
 import Carousal from './Components/carousel2';
 import Price from './Components/pricecard'
+import UserSection from './Components/UserSection';
+import Heading5 from './Components/Heading5';
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
     <Heading3 />
     <Heading4 />
     <Carousal/>
-    <Price/>
+    <Price/>    
+    <UserSection />
+    <Heading5 />
+    <Footer />
     </div>
   );
 }

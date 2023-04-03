@@ -20,11 +20,19 @@ export default function Heading5() {
           </p>
         </div>
 
-        <div className="heading5Section2BtnContainer">
-          <button className="heading5Section2BtnContent">
-            Sign up - it’s free!
-          </button>
+
+        <div className="heading5Section2AContainer">
+
+          <div className="heading5Section2InputContainer">
+            <input type="text" placeholder='Email' className="heading5Section2InputContent" />
+          </div>
+          <div className="heading5Section2BtnContainer">
+            <button className="heading5Section2BtnContent">
+              Sign up - it’s free!
+            </button>
+          </div>
         </div>
+
       </div>
       <div className="heading5Section3Container">
         <div className="heading5Section3ImgContainer">
