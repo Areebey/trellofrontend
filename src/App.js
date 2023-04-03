@@ -6,6 +6,7 @@ import Heading3 from './Components/Heading3';
 import Heading4 from './Components/Heading4';
 import MultipleItems from './Components/carousel1';
 import Carousal from './Components/carousel2';
+import Price from './Components/pricecard'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Heading3 />
     <Heading4 />
     <Carousal/>
+    <Price/>
     </div>
   );
 }
