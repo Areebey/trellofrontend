@@ -1,32 +1,44 @@
 .heading5Container {
-  background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% /
-    auto repeat scroll padding-box border-box rgb(82, 67, 170);
+  background: linear-gradient(60deg, rgb(82, 67, 170), rgb(237, 80, 180)) 0% 0% / auto repeat scroll padding-box border-box rgb(82, 67, 170);
   background-blend-mode: normal, normal, normal;
   color: rgb(255, 255, 255);
-  width: 80em;
+  width: 68em;
   display: flex;
   justify-content: space-between;
+  margin-top: 5em;
 }
-.heading5Section1Container {
-}
-.heading5Section1ImgContainer {
-}
+
+.heading5Section1Container {}
+
+.heading5Section1ImgContainer {}
+
 .heading5Section1ImgContent {
-  width: 18em;
+  width: 16em;
 }
+
 .heading5Section2Container {
+  margin-top: -2em;
 }
+
 .heading5Section2HeadingContainer {
   margin-top: 6em;
+  margin-left: 3em;
 }
+
 .heading5Section2HeadingContent {
   font-size: 2.25em;
   font-weight: 500;
   color: white;
 }
+
+.heading5Section2AContainer{
+  display: flex;
+}
+
 .heading5Section2BtnContainer {
   margin-left: 10em;
 }
+
 .heading5Section2BtnContent {
   background-color: #0065ff;
   border: 1px solid #0065ff;
@@ -36,10 +48,24 @@
   color: white;
   font-size: 0.8em;
 }
-.heading5Section3Container {
+
+.heading5Section2InputContainer {
+  width: 15em;
 }
-.heading5Section3ImgContainer {
+
+.heading5Section2InputContent {
+  display: inline-block;
+  width: 24em;
+  border: 1px solid white;
+  padding: 1em 1em;
+  border-radius: 0.3em;
+  outline: none;
 }
+
+.heading5Section3Container {}
+
+.heading5Section3ImgContainer {}
+
 .heading5Section3ImgContent {
-  width: 18em;
+  width: 16em;
 }

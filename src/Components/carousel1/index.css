@@ -1,0 +1,29 @@
+@media only screen and (min-width:0px) and (max-width: 575px) {}
+
+@media only screen and (min-width:576px) and (max-width: 767px) {}
+
+@media only screen and (min-width:768px) and (max-width: 991px) {}
+
+@media only screen and (min-width:992px) {
+   
+
+
+    .paragraph {
+        box-sizing: border-box;
+        font-weight: 60;
+        height: 60px;
+        font-size: 20px;
+        color: rgb(9,30,36);
+        font-family: sans-serif;
+        text-align: left;
+        text-size-adjust: 100%;
+    }
+    .btn {
+        text-align: right;
+        float: none;
+           
+        
+    }
+   
+
+}
