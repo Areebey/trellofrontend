@@ -4,6 +4,7 @@ import {RiArrowDropDownLine} from "react-icons/ri"
 import {GrView,GrTemplate,GrIntegration} from "react-icons/gr"
 import {GiAutoRepair} from "react-icons/gi"
 import {HiOutlinePencil} from "react-icons/hi"
+import {FaBars} from "react-icons/fa";
 import "./Navbar.css"
 
 
@@ -37,7 +38,7 @@ const Navbar = () => {
             <div className='dropdown-menu' ref={dropdownRef}>
               {isOpen &&(
 
-             <div className='content-container'>
+             <div className='feature-content-container'>
               <div className='sub-container-1'>
                 <h2>Explore the features that help your team succeed</h2>
                 <div className='feature-container-1'>
@@ -93,9 +94,12 @@ const Navbar = () => {
 
         <button className="login-btn">Login</button>
         <button className="get-trello-btn">Get Trello For Free</button>
-  
+
+        <button className='btn-forresponsive'>
+        <div className='navigation-div'><FaBars className='btn-navigation'/></div>
+        </button>
         </ul>
-        
+
     </nav>
 
   )
